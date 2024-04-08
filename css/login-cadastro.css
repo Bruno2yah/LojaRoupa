@@ -1,0 +1,96 @@
+body {
+    overflow-x: hidden;
+}
+
+input {
+    border: 1px solid #4400c2 !important;
+}
+
+.custom-file-input::file-selector-button {
+    background-color: #4C40c2;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+input[type="file"] {
+    display: none;
+}
+input:focus {
+    box-shadow: none !important;
+    background-color: white !important;
+}
+
+label {
+    color: #924da7 !important;
+}
+
+#lbFoto:hover{
+
+    translate: 0 -10px;
+    transition-duration: 1s;
+}
+.imgCadastro:hover{
+    box-shadow: inset -30px -30px 30px 0px #000;
+}
+.imagemLogo {
+    width: 20% !important;
+}
+
+.boxLogo {
+    justify-content: end;
+    align-items: end
+}
+
+.cadastro:focus{
+    /* width: 34.1vw !important; */
+    background-color: #4400c2 !important;
+
+}
+@media (min-width: 1300px) {
+    .login {
+        background-color: #4400c2;
+        width: 50vw;
+
+        height: 100vh;
+        margin: auto;
+        /* border: 4px solid whitesmoke; */
+        border-bottom-left-radius: 7rem;
+        border-top-left-radius: 7rem;
+
+    }
+    .boxFormulario {
+        border-bottom-left-radius: 7rem !important;
+        border-top-left-radius: 7rem !important;
+    }
+    .logoImg {
+        display: flex;
+        justify-content: end !important;
+        align-items: end !important;
+    }
+
+    .imagemLogo {
+        width: 60% !important;
+    }
+
+    .boxForm {
+        width: 40% !important;
+        height: 50% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cadastro:focus{
+        width: 34.1vw !important;
+        background-color: #4400c2 !important;
+    
+    }
+    .boxLogo {
+        justify-content: center;
+        align-items: center
+    }
+
+
+}
